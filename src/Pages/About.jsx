@@ -205,7 +205,7 @@ const AboutPage = () => {
                 data-aos="fade-right"
                 data-aos-duration="1300"
               >
-                Eki Zulfar Rachman
+                Md Momen Sha
               </span>
             </h2>
             
@@ -214,10 +214,15 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              seorang siswa Teknik Jaringan Komputer dan Telekomunikasi yang
-              tertarik dalam pengembangan Front-End. Saya berfokus pada
-              menciptakan pengalaman digital yang menarik dan selalu berusaha
-              memberikan solusi terbaik dalam setiap proyek.
+              I’m Md Momen Sha, A computer science engneering student majoring in Cybersecurity. 
+              I grind CTFs and Competitive Programming, blending hacking with logic. 
+              I specialize in web exploits (SQLi, XSS, LFI/RFI), binary pwn, and reverse engineering. 
+              Tools I live on: Kali Linux, Burp Suite, Nmap, Wireshark, Metasploit, and custom scripts via Termux + NetHunter on rooted Android.
+              
+              I research AI-powered threat detection — anomaly detection, phishing filters, automated incident response — aiming to build smarter, faster defense systems. 
+              I'm also the mind behind BrainWave, a student-focused all-in-one toolkit. I play chess (ELO 1376).
+
+	      Breaking systems to rebuild 'em stronger — that’s the mission.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">

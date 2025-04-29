@@ -131,7 +131,7 @@ const ContactPage = () => {
             </div>
 
             <form 
-              action="https://formsubmit.co/ekizulfarrachman@gmail.com"
+              action="https://formsubmit.co/themrxavu@gmail.com"
               method="POST"
               onSubmit={handleSubmit}
               className="space-y-6"
@@ -149,7 +149,7 @@ const ContactPage = () => {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Your Name"
+                  placeholder="mrxvaau"
                   value={formData.name}
                   onChange={handleChange}
                   disabled={isSubmitting}
@@ -166,7 +166,7 @@ const ContactPage = () => {
                 <input
                   type="email"
                   name="email"
-                  placeholder="Your Email"
+                  placeholder="themrxavu@gmail.com"
                   value={formData.email}
                   onChange={handleChange}
                   disabled={isSubmitting}
@@ -182,7 +182,7 @@ const ContactPage = () => {
                 <MessageSquare className="absolute left-4 top-4 w-5 h-5 text-gray-400 group-focus-within:text-[#6366f1] transition-colors" />
                 <textarea
                   name="message"
-                  placeholder="Your Message"
+                  placeholder="There's No Place Like 127.0.0.1"
                   value={formData.message}
                   onChange={handleChange}
                   disabled={isSubmitting}
