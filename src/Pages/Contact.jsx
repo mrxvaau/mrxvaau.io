@@ -149,7 +149,7 @@ const ContactPage = () => {
                 <input
                   type="text"
                   name="name"
-                  placeholder="mrxvaau"
+                  placeholder="Enter your name"
                   value={formData.name}
                   onChange={handleChange}
                   disabled={isSubmitting}
@@ -166,7 +166,7 @@ const ContactPage = () => {
                 <input
                   type="email"
                   name="email"
-                  placeholder="themrxavu@gmail.com"
+                  placeholder="Enter your email"
                   value={formData.email}
                   onChange={handleChange}
                   disabled={isSubmitting}
@@ -182,7 +182,7 @@ const ContactPage = () => {
                 <MessageSquare className="absolute left-4 top-4 w-5 h-5 text-gray-400 group-focus-within:text-[#6366f1] transition-colors" />
                 <textarea
                   name="message"
-                  placeholder="There's No Place Like 127.0.0.1"
+                  placeholder="Write your massage here..."
                   value={formData.message}
                   onChange={handleChange}
                   disabled={isSubmitting}

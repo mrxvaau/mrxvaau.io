@@ -214,7 +214,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              I’m Md Momen Sha, A computer science engneering student majoring in Cybersecurity. 
+              I’m Md Momen Sha aka mrxvaau, A computer science engneering student majoring in Cybersecurity. 
               I grind CTFs and Competitive Programming, blending hacking with logic. 
               I specialize in web exploits (SQLi, XSS, LFI/RFI), binary pwn, and reverse engineering. 
               Tools I live on: Kali Linux, Burp Suite, Nmap, Wireshark, Metasploit, and custom scripts via Termux + NetHunter on rooted Android.

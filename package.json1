@@ -1,11 +1,11 @@
 {
-  "name": "mrxvaau.io",
+  "name": "portofolio-v5",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm install --legacy-peer-deps && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
