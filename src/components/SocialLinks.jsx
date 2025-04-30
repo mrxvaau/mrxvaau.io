@@ -13,7 +13,7 @@ const socialLinks = [
     displayName: "Let's Connect",
     subText: "on LinkedIn",
     icon: Linkedin,
-    url: "https://www.linkedin.com/in/ekizr/",
+    url: "https://www.linkedin.com/in/mrx-vau-666715308/",
     color: "#0A66C2",
     gradient: "from-[#0A66C2] to-[#0077B5]",
     isPrimary: true
@@ -21,34 +21,58 @@ const socialLinks = [
   {
     name: "Instagram",
     displayName: "Instagram",
-    subText: "@ekizr_",
+    subText: "@yours.joi",
     icon: Instagram,
-    url: "https://www.instagram.com/ekizr_/?hl=id",
+    url: "https://www.instagram.com/yours.joi/?hl=id",
     color: "#E4405F",
     gradient: "from-[#833AB4] via-[#E4405F] to-[#FCAF45]"
   },
   {
     name: "YouTube",
     displayName: "Youtube",
-    subText: "@eki zulfar",
+    subText: "error404",
     icon: Youtube,
-    url: "https://www.youtube.com/@eki_zulfar",
+    url: "https://www.youtube.com/error404.",
     color: "#FF0000",
     gradient: "from-[#FF0000] to-[#CC0000]"
   },
   {
     name: "GitHub",
     displayName: "Github",
-    subText: "@EkiZR",
+    subText: "mrxvaau",
     icon: Github,
-    url: "https://github.com/EkiZR",
+    url: "https://github.com/mrxvaau",
     color: "#ffffff",
     gradient: "from-[#333] to-[#24292e]"
   },
   {
+  name: "X",
+  displayName: "X",
+  subText: "@mrxvaau",
+  href: "https://x.com/mrxvaau",
+  icon: ({ className, ...props }) => (
+    <svg
+      className={className}
+      {...props}
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>X</title>
+      <path
+        fill="currentColor"
+        d="M14.368 10.56L22.5 0H20.455L13.488 8.801L7.854 0H0.5L8.984 12.9L0.5 24H2.545L9.884 14.652L15.855 24H23.209L14.368 10.56ZM11.074 13.539L10.002 11.957L3.438 2H6.732L11.934 9.693L13.005 11.275L20.636 22H17.342L11.074 13.539Z"
+      />
+    </svg>
+  )
+},
+
+  {
     name: "TikTok",
     displayName: "Tiktok",
-    subText: "@eki_zulfar",
+    subText: "error404",
     icon: ({ className, ...props }) => (
      <svg width="24px" height="24px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Tiktok</title>
@@ -61,7 +85,7 @@ const socialLinks = [
     </g>
 </svg>
     ),
-    url: "https://tiktok.com/@eki_zulfar",
+    url: "https://tiktok.com/404error",
     color: "black",
     gradient: "from-[#000000] via-[#25F4EE] to-[#FE2C55]"
   }

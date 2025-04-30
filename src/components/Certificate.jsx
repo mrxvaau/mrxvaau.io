@@ -3,7 +3,7 @@ import { Modal, IconButton, Box, Fade, Backdrop, Zoom, Typography } from "@mui/m
 import CloseIcon from "@mui/icons-material/Close"
 import FullscreenIcon from "@mui/icons-material/Fullscreen"
 
-const Certificate = ({ ImgSertif }) => {
+const Certificate = ({ ImgSertif, pdfPath }) => {
 	const [open, setOpen] = useState(false)
 
 	const handleOpen = () => {
